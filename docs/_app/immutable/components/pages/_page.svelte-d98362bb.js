@@ -1,0 +1,25 @@
+import{S as F,i as G,s as J,k as c,a as w,q as L,l as d,m as f,c as y,h as s,r as U,n as m,b as A,C as a,B as S,K as M}from"../../chunks/index-2fb350df.js";function W(h,e,l){const o=h.slice();return o[1]=e[l],o}function z(h){let e,l=h[1]+"",o;return{c(){e=c("div"),o=L(l),this.h()},l(u){e=d(u,"DIV",{class:!0});var p=f(e);o=U(p,l),p.forEach(s),this.h()},h(){m(e,"class","flex justify-center w-full border-gray-700 border-l-2 border-t-2 text-center items-center border-collapse h-16 text-lg ")},m(u,p){A(u,e,p),a(e,o)},p:S,d(u){u&&s(e)}}}function N(h){let e,l,o,u,p,j,r,b,C,I,q,P,V,_,k,H,E,B,D=h[0],n=[];for(let i=0;i<D.length;i+=1)n[i]=z(W(h,D,i));return{c(){e=c("div"),l=c("div"),o=c("div");for(let i=0;i<n.length;i+=1)n[i].c();u=w(),p=c("hr"),j=w(),r=c("div"),b=c("h1"),C=L("Content Title"),I=w(),q=c("p"),P=L(`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+				ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+				laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+				cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`),V=w(),_=c("p"),k=L(`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+				ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+				laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+				cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`),H=w(),E=c("p"),B=L(`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+				ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+				laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+				cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`),this.h()},l(i){e=d(i,"DIV",{class:!0});var x=f(e);l=d(x,"DIV",{class:!0});var t=f(l);o=d(t,"DIV",{class:!0});var g=f(o);for(let R=0;R<n.length;R+=1)n[R].l(g);u=y(g),p=d(g,"HR",{class:!0}),g.forEach(s),j=y(t),r=d(t,"DIV",{class:!0});var v=f(r);b=d(v,"H1",{class:!0});var T=f(b);C=U(T,"Content Title"),T.forEach(s),I=y(v),q=d(v,"P",{class:!0});var $=f(q);P=U($,`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+				ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+				laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+				cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`),$.forEach(s),V=y(v),_=d(v,"P",{class:!0});var K=f(_);k=U(K,`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+				ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+				laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+				cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`),K.forEach(s),H=y(v),E=d(v,"P",{class:!0});var O=f(E);B=U(O,`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+				ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+				laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+				cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`),O.forEach(s),v.forEach(s),t.forEach(s),x.forEach(s),this.h()},h(){m(p,"class","border-gray-700"),m(o,"class","basis-96 flex-grow"),m(b,"class","text-3xl"),m(q,"class","text-xl mt-2"),m(_,"class","text-xl mt-2"),m(E,"class","text-xl mt-2"),m(r,"class","basis-0 flex-grow-[999] min-w-[50] border-2 border-gray-700 p-4"),m(l,"class","flex flex-wrap w-5/6"),m(e,"class","flex grow justify-center font-montserrat overflow-y-visible")},m(i,x){A(i,e,x),a(e,l),a(l,o);for(let t=0;t<n.length;t+=1)n[t].m(o,null);a(o,u),a(o,p),a(l,j),a(l,r),a(r,b),a(b,C),a(r,I),a(r,q),a(q,P),a(r,V),a(r,_),a(_,k),a(r,H),a(r,E),a(E,B)},p(i,[x]){if(x&1){D=i[0];let t;for(t=0;t<D.length;t+=1){const g=W(i,D,t);n[t]?n[t].p(g,x):(n[t]=z(g),n[t].c(),n[t].m(o,u))}for(;t<n.length;t+=1)n[t].d(1);n.length=D.length}},i:S,o:S,d(i){i&&s(e),M(n,i)}}}function Q(h){return[["Django Website","Discord Bot","PoE Ladder","OCR Heist"]]}class Y extends F{constructor(e){super(),G(this,e,Q,N,J,{})}}export{Y as default};
