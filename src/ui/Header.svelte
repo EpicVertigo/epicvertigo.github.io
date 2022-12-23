@@ -1,12 +1,12 @@
 <header
-	class="font-mono p-5 flex flex-row flex-wrap items-center justify-center md:justify-between"
+	class="font-mono py-5 px-10 flex flex-row flex-wrap items-center justify-center md:justify-between"
 >
-	<div class="text-center m-5">
-		<h1 class="text-4xl">Vertig's Side Projects</h1>
-		<h3 class="text-xl">A journey to learn nothing useful</h3>
-	</div>
-	<div class="flex flex-row gap-10 sm:pr-10 justify-center text-xl font-montserrat">
+	<a href="/" class="text-left">
+		<h1 class="text-4xl">Vertig's Small Projects</h1>
+		<h3 class="text-xl">Bits and snippets</h3>
+	</a>
+	<div class="flex flex-row justify-center gap-10 sm:pr-10 text-xl font-montserrat">
 		<a href="/about">About</a>
-		<div>Profile</div>
+		<div class="text-gray-500 cursor-not-allowed">Profile</div>
 	</div>
 </header>
