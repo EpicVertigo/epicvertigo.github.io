@@ -31,3 +31,9 @@ export function setActiveHero() {
 		}
 	}
 }
+
+export function resetPick() {
+	_index = -1;
+	selectedHeroIndex.set(_index);
+	selectedHero.set(null);
+}
