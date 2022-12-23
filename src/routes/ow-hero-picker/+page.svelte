@@ -1,6 +1,9 @@
 <script>
-	import { fly, fade } from 'svelte/transition';
-	import { heroList, selectedHero, selectedHeroIndex, setActiveHero } from '../../lib/overwatch';
+	import { faGun, faPlus, faShield } from '@fortawesome/free-solid-svg-icons';
+	import { fade, fly } from 'svelte/transition';
+	import { selectedHero, setActiveHero } from '../../lib/overwatch';
+	import ClassIcon from '../../ui/ow/ClassIcon.svelte';
+	import HeroSection from '../../ui/ow/HeroSection.svelte';
 </script>
 
 <h1 class="text-xl px-10 font-mono">OW Style Hero Picker</h1>
@@ -29,33 +32,16 @@
 			{$selectedHero ? 'Selected hero: ' + $selectedHero.name : 'Please select your hero'}
 		</h3>
 
-		<section class="flex flex-row flex-wrap gap-2">
-			<div id="tanks" />
-			<div id="dps">
-				<div class="flex flex-row flex-wrap gap-3 px-6 md:px-0">
-					{#each heroList as hero, index}
-						<button
-							on:click={() => selectedHeroIndex.set(index)}
-							class="flex flex-col flex-wrap hover:scale-110"
-						>
-							<button
-								class="{$selectedHeroIndex === index
-									? 'grayscale-0  border-yellow-500 shadow-yellow-600 shadow-xl'
-									: ''} w-24 h-24 grayscale hover:grayscale-0 border-4
-									  hover:border-yellow-500  -skew-x-12"
-							>
-								<img
-									class="w-full h-full object-cover"
-									src="images/ow/{hero.image}"
-									alt={hero.name}
-								/>
-							</button>
-							<p class="grow-0 font-bignoodle text-3xl -skew-x-6 text-left -ml-3">{hero.name}</p>
-						</button>
-					{/each}
-				</div>
-			</div>
-			<div id="supports" />
+		<section class="flex flex-row flex-wrap gap-5">
+			<HeroSection sectionType="tank">
+				<ClassIcon slot="class-icon" icon={faShield} tooltip="Tanks" />
+			</HeroSection>
+			<HeroSection sectionType="dps">
+				<ClassIcon slot="class-icon" icon={faGun} size="1.5x" tooltip="DPS" />
+			</HeroSection>
+			<HeroSection sectionType="support">
+				<ClassIcon slot="class-icon" icon={faPlus} tooltip="Supports" />
+			</HeroSection>
 		</section>
 
 		<div>
